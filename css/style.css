@@ -1,0 +1,119 @@
+html { font-size:100%; }
+
+/* MOBILE */
+@media (max-width: 480px) 
+{ 
+    .navbar-brand
+    {
+        font-size: 25px !important;
+        line-height: 25px !important;
+    }
+    
+    #rt-title{font-size:4rem;}
+    #rt-subtitle {font-size:1.5rem !important;}
+} 
+ 
+/* TABLET */
+@media (min-width:481px) and (max-width:768px) 
+{ 
+    .navbar-brand
+    {
+        font-size: 25px !important;
+        line-height: 25px !important;
+    }
+    
+    #rt-title {font-size:5em; } 
+    #rt-subtitle {font-size:1.5rem;}
+} 
+/* DESKTOP */
+@media (min-width:769px) and (max-width:960px) 
+{ 
+    .navbar-brand 
+    {
+        font-size: 30px !important; 
+        line-height: 20px !important;
+    }
+    
+    #rt-title {font-size:8rem;}
+    #rt-subtitle {font-size:1.5rem;}
+} 
+/* DESKTOP PIU GRANDI */
+@media (min-width:961px) 
+{ 
+    .navbar-brand 
+    {
+        font-size: 30px !important; 
+        line-height: 20px !important;
+    }
+    
+    #rt-title {font-size:8rem;}
+    #rt-subtitle {font-size:1.5rem;}
+    
+    .title-section
+    {
+        font-size: 4rem !important;
+    }
+    .description-section
+    {
+        font-size:1.3rem;
+    }
+} 
+
+body{background-color:#122b40; color:white;}
+
+#rt-header
+{
+    margin-top:55px;
+}
+
+.navbar-brand
+{
+    font-family: Calibri,sans-serif;
+}
+
+#rt-title,#rt-subtitle
+{
+    color:white;
+    font-weight: bold !important;
+    text-shadow: 0.1em 0.1em 0.15em #222;
+}
+
+.rt-section
+{
+    margin-bottom:15px !important;
+    color:#122b40;
+    background-color: white;
+    border: white solid 15px;
+    padding-top: 50px !important;
+}
+.title-section
+{
+    margin-bottom:30px;
+}
+.btn-section
+{
+    margin-top: 40px;
+}
+
+#servizi, #servizi hr
+{
+    border-color:rgb(255, 99, 71);
+}
+#rt-title-esempi
+{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    line-height: 1.6 !important;
+    background-color: #122b40;
+    color:white;
+}
+
+#attivazione,#attivazione hr
+{
+    border-color:rgb(76, 175, 80);
+}
+#clienti
+{
+    border-color:#FFD700;
+}
