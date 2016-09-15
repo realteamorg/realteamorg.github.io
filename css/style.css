@@ -122,6 +122,7 @@ body{background-color:#122b40; color:white;}
 {
     border-color: rgb(255,153,0);
 }
+
 #btn-attivazione
 {
     background-color: rgb(255,153,0);
@@ -138,7 +139,6 @@ body{background-color:#122b40; color:white;}
     border:grey solid 0.9px;
     padding: 5px; 
     margin-top:30px; 
-    border-left-width: 26px;
 }
 
 #benefici-1
@@ -164,4 +164,18 @@ body{background-color:#122b40; color:white;}
 #benefici-5
 {
     border-left-color:#C24D21;
+}
+/*
+#benefici-2, #benefici-4,
+{
+    border-right-width: 26px;
+    border-radius: 0 56px 0 0px;
+    margin-left: 170px;
+}
+*/
+#benefici-1,#benefici-2,#benefici-3,
+#benefici-4, #benefici-5
+{
+    border-left-width: 26px;
+    border-radius: 0 0 0 56px;
 }
