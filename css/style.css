@@ -95,7 +95,7 @@ body{background-color:#122b40; color:white;}
     margin-top: 40px;
 }
 
-#servizi, #servizi hr
+#servizio, #servizio hr
 {
     border-color:rgb(255, 99, 71);
 }
@@ -113,7 +113,55 @@ body{background-color:#122b40; color:white;}
 {
     border-color:rgb(76, 175, 80);
 }
-#clienti
+#clienti, #clienti hr
 {
     border-color:#FFD700;
+}
+
+#benefici, #benefici hr 
+{
+    border-color: rgb(255,153,0);
+}
+#btn-attivazione
+{
+    background-color: rgb(255,153,0);
+}
+
+#img-benefici
+{
+   margin-top:20px;
+   margin-bottom: 20px;
+}
+
+.scheda-benefici
+{
+    border:grey solid 0.9px;
+    padding: 5px; 
+    margin-top:30px; 
+    border-left-width: 26px;
+}
+
+#benefici-1
+{
+    border-left-color:rgb(255,153,0);
+}
+
+#benefici-2
+{
+    border-left-color:#93C854;
+}
+
+#benefici-3
+{
+    border-left-color:#28ADCE;
+}
+
+#benefici-4
+{
+    border-left-color:#126CAB;
+}
+
+#benefici-5
+{
+    border-left-color:#C24D21;
 }
