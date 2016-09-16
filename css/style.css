@@ -181,22 +181,24 @@ body{background-color:#122b40; color:white;}
     border-radius: 0 0 0 56px;
 }
 
-#attivazione-table th
+.attivazione-index
 {
     background-color: rgb(255,153,0);
-    height:120px;
+    height:100px;
     text-align: center !important;
     font-size:35px;
     color:white;
+    line-height: 100px;
+    margin-top:20px;
 }
-
-#attivazione-table td
+.col-attivazione
 {
-    padding-bottom: 10px;
+    padding:2px;
 }
 
 #btn-clienti
 {
+    margin-top: 60px;
     background-color: rgb(76, 175, 80);
 }
 
