@@ -112,6 +112,7 @@ body{background-color:#122b40; color:white;}
 #attivazione,#attivazione hr
 {
     border-color:rgb(76, 175, 80);
+    margin-bottom: 80px;
 }
 #clienti, #clienti hr
 {
@@ -178,4 +179,23 @@ body{background-color:#122b40; color:white;}
 {
     border-left-width: 26px;
     border-radius: 0 0 0 56px;
+}
+
+#attivazione-table th
+{
+    background-color: rgb(255,153,0);
+    height:120px;
+    text-align: center !important;
+    font-size:35px;
+    color:white;
+}
+
+#attivazione-table td
+{
+    padding-bottom: 10px;
+}
+
+#btn-clienti
+{
+    background-color: rgb(76, 175, 80);
 }
