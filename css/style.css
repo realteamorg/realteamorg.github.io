@@ -205,6 +205,12 @@ body{background-color:#122b40; color:white;}
     background-color: #FFD700;
 }
 
+#img-benefici, #img-attivazione-1,#img-attivazione-2
+,#img-attivazione-3,#img-attivazione-4
+{
+    max-width: 100%;
+}
+
 .back-to-top {
     cursor: pointer;
     position: fixed;
