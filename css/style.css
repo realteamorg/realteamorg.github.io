@@ -9,6 +9,15 @@ html { font-size:100%; }
         line-height: 25px !important;
     }
     
+    #back-to-top
+    {
+        font-size: 21px;
+        height:50px;
+        width: 50px;
+        padding-left: 15px;
+        padding-right: 11px;
+    }
+    
     #rt-title{font-size:4rem;}
     #rt-subtitle {font-size:1.5rem !important;}
 } 
@@ -22,6 +31,14 @@ html { font-size:100%; }
         line-height: 25px !important;
     }
     
+    #back-to-top
+    {
+        font-size: 21px;
+        height:50px;
+        width: 50px;
+        padding-left: 15px;
+        padding-right: 11px;
+    }
     #rt-title {font-size:5em; } 
     #rt-subtitle {font-size:1.5rem;}
 } 
@@ -66,9 +83,9 @@ body{background-color:#122b40; color:white;}
     margin-top:55px;
 }
 
-.navbar-brand
+.navbar-brand, h1, h2, h3, h4, h5, h6, p
 {
-    font-family: Calibri,sans-serif;
+    font-family: Calibri,sans-serif !important;
 }
 
 #rt-title,#rt-subtitle
@@ -95,7 +112,7 @@ body{background-color:#122b40; color:white;}
     margin-top: 40px;
 }
 
-#servizio, #servizio hr
+#prodotto, #prodotto hr
 {
     border-color:rgb(255, 99, 71);
 }
@@ -221,4 +238,6 @@ body{background-color:#122b40; color:white;}
     display:none;
     font-size: 35px;
     border: 1px solid black;
+    opacity:0.6;
+    background-color: rgb(18, 43, 64);
 }
