@@ -66,9 +66,9 @@ body{background-color:#122b40; color:white;}
     margin-top:55px;
 }
 
-.navbar-brand
+.navbar-brand, h1, h2, h3, h4, h5, h6, p
 {
-    font-family: Calibri,sans-serif;
+    font-family: Calibri,sans-serif !important;
 }
 
 #rt-title,#rt-subtitle
@@ -95,7 +95,7 @@ body{background-color:#122b40; color:white;}
     margin-top: 40px;
 }
 
-#servizio, #servizio hr
+#prodotto, #prodotto hr
 {
     border-color:rgb(255, 99, 71);
 }
