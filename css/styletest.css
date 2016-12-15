@@ -1,0 +1,298 @@
+html { font-size:100%; }
+
+/* MOBILE */
+@media (max-width: 480px) 
+{ 
+    .navbar-brand
+    {
+        font-size: 25px !important;
+        line-height: 25px !important;
+    }
+    
+    #back-to-top
+    {
+        font-size: 21px;
+        height:50px;
+        width: 50px;
+        padding-left: 15px;
+        padding-right: 11px;
+    }
+    
+    #rt-title{font-size:4rem;}
+    #rt-subtitle {font-size:1.5rem !important;}
+} 
+ 
+/* TABLET */
+@media (min-width:481px) and (max-width:768px) 
+{ 
+    .navbar-brand
+    {
+        font-size: 25px !important;
+        line-height: 25px !important;
+    }
+    
+    #back-to-top
+    {
+        font-size: 21px;
+        height:50px;
+        width: 50px;
+        padding-left: 15px;
+        padding-right: 11px;
+    }
+    #rt-title {font-size:5em; } 
+    #rt-subtitle {font-size:1.5rem;}
+} 
+/* DESKTOP */
+@media (min-width:769px) and (max-width:960px) 
+{ 
+    .navbar-brand 
+    {
+        font-size: 30px !important; 
+        line-height: 20px !important;
+    }
+    
+    #rt-title {font-size:8rem;}
+    #rt-subtitle {font-size:1.5rem;}
+} 
+/* DESKTOP PIU GRANDI */
+@media (min-width:961px) 
+{ 
+    .navbar-brand 
+    {
+        font-size: 30px !important; 
+        line-height: 20px !important;
+    }
+    
+    #rt-title {font-size:8rem;}
+    #rt-subtitle {font-size:1.5rem;}
+    
+    .title-section
+    {
+        font-size: 4rem !important;
+    }
+    .description-section
+    {
+        font-size:1.3rem;
+    }
+} 
+
+body{background-color:#122b40; color:white;}
+
+#rt-header
+{
+    margin-top:55px;
+}
+
+.navbar-brand, h1, h2, h3, h4, h5, h6, p
+{
+    font-family: Calibri,sans-serif !important;
+}
+
+#rt-title,#rt-subtitle
+{
+    color:white;
+    font-weight: bold !important;
+    text-shadow: 0.1em 0.1em 0.15em #222;
+}
+
+.rt-section
+{
+    margin-bottom:15px !important;
+    color:#122b40;
+    background-color: white;
+    border: white solid 15px;
+    padding-top: 50px !important;
+}
+.title-section
+{
+    margin-bottom:30px;
+}
+.btn-section
+{
+    margin-top: 40px;
+}
+
+#prodotto, #prodotto hr
+{
+    border-color:rgb(255, 99, 71);
+}
+#rt-title-esempi
+{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    line-height: 1.6 !important;
+    background-color: #122b40;
+    color:white;
+}
+
+#attivazione,#attivazione hr
+{
+    border-color:rgb(76, 175, 80);
+}
+
+#pacchetti,#pacchetti hr
+{
+    border-color:rgb(0, 172, 230);
+}
+
+#clienti, #clienti hr
+{
+    border-color:#FFD700;
+}
+
+#benefici, #benefici hr 
+{
+    border-color: rgb(255,153,0);
+}
+
+#btn-attivazione
+{
+    background-color: rgb(255,153,0);
+}
+
+#btn-pacchetti
+{
+    margin-top: 60px;
+    background-color: rgb(76, 175, 80);
+}
+
+#img-benefici
+{
+   margin-top:20px;
+   margin-bottom: 20px;
+}
+
+.scheda-benefici
+{
+    border:grey solid 0.9px;
+    padding: 5px; 
+    margin-top:30px; 
+}
+
+#benefici-1
+{
+    border-left-color:rgb(255,153,0);
+}
+
+#benefici-2
+{
+    border-left-color:#93C854;
+}
+
+#benefici-3
+{
+    border-left-color:#28ADCE;
+}
+
+#benefici-4
+{
+    border-left-color:#126CAB;
+}
+
+#benefici-5
+{
+    border-left-color:#C24D21;
+}
+/*
+#benefici-2, #benefici-4,
+{
+    border-right-width: 26px;
+    border-radius: 0 56px 0 0px;
+    margin-left: 170px;
+}
+*/
+#benefici-1,#benefici-2,#benefici-3,
+#benefici-4, #benefici-5
+{
+    border-left-width: 26px;
+    border-radius: 0 0 0 56px;
+}
+
+.attivazione-index
+{
+    /*background-color: rgb(255,153,0);*/
+    /*height:100px;*/
+    text-align: center !important;
+    font-size: 35px;
+    color: rgb(255,153,0);
+    /*line-height: 100px;*/
+    /*margin-top:20px;*/
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.col-attivazione
+{
+    margin: 5px;
+    padding: 5px;
+    border: 4px solid rgb(255,153,0);
+    height: 430px;
+}
+/*PACCHETTI COMMERCIALI*/
+
+.contenuto-scheda
+{
+    padding: 0px 15px 0px 15px !important;
+}
+.titolo-scheda > p
+{
+    font-size:20px;
+    font-weight: 100;
+    
+}
+.prezzo-scheda > h1
+{
+    font-size: 50px;
+}
+.contenuto-scheda > .panel
+{
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.contenuto-scheda > ul
+{
+    text-align: left;
+}
+.head-contenuto-scheda
+{
+    padding: 5px 15px 5px 15px;
+    font-weight: 500;
+}
+.panel-white
+{
+    background-color: white !important;
+}
+
+
+#btn-clienti
+{
+    background-color: rgb(0, 172, 230);
+}
+
+#btn-contatti
+{
+    background-color: #FFD700;
+}
+
+#img-benefici, #img-attivazione-1,#img-attivazione-2
+,#img-attivazione-3,#img-attivazione-4
+{
+    max-width: 100%;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    font-size: 35px;
+    border: 1px solid black;
+    opacity:0.6;
+    background-color: rgb(18, 43, 64);
+}
+
+.rt-esempio
+{
+    height: 160px;
+}
