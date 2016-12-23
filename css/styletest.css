@@ -327,6 +327,21 @@ body{background-color:#122b40; color:white;}
 
 /*PACCHETTI COMMERCIALI - v3*/
 
+/*PACCHETTI COMMERCIALI - v4*/
+.rt-panel-icon
+{
+    float:right;
+}
+.rt-panel-body_4
+{
+    text-align: left; 
+    padding:10px 0 1px 0;
+}
+.rt-panel-body_4 > ul
+{
+    font-size: 18px; 
+    margin-bottom: 5px;
+}
 
 
 #btn-clienti
