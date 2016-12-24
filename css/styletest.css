@@ -131,7 +131,7 @@ body{background-color:#122b40; color:white;}
     border-color:rgb(76, 175, 80);
 }
 
-#pacchetti,#pacchetti hr
+#prezzi,#prezzi hr
 {
     border-color:rgb(0, 172, 230);
 }
@@ -151,7 +151,7 @@ body{background-color:#122b40; color:white;}
     background-color: rgb(255,153,0);
 }
 
-#btn-pacchetti
+#btn-prezzi
 {
     margin-top: 60px;
     background-color: rgb(76, 175, 80);
@@ -228,43 +228,47 @@ body{background-color:#122b40; color:white;}
     border: 4px solid rgb(255,153,0);
     height: 430px;
 }
-/*PACCHETTI COMMERCIALI*/
 
+/*PACCHETTI COMMERCIALI*/
 .contenuto-scheda
 {
     padding: 0px 15px 0px 15px !important;
 }
+/* DESKTOP */
+@media (min-width:650px)
+{ 
+    .titolo-scheda
+    {
+        height: 80px;
+    }
+    .prezzo-scheda
+    {
+        height: 160px;
+    }
+}
+/* MOBILE */
+@media (max-width:650px)
+{
+    .titolo-scheda
+    {
+        height: auto;
+    }
+    .prezzo-scheda
+    {
+        height: auto;
+    }  
+}
+
 .titolo-scheda > p
 {
     font-size:20px;
     font-weight: 100;
-    
 }
+
 .prezzo-scheda > h1
 {
     font-size: 50px;
 }
-.contenuto-scheda > .panel
-{
-    margin-bottom: 15px;
-    margin-top: 20px;
-}
-.contenuto-scheda > ul
-{
-    text-align: left;
-}
-.head-contenuto-scheda
-{
-    padding: 5px 15px 5px 15px;
-    font-weight: 500;
-}
-.panel-white
-{
-    background-color: white !important;
-}
-
-
-/*PACCHETTI COMMERCIALI - v2*/
 
 .rt-panel
 {
@@ -283,6 +287,10 @@ body{background-color:#122b40; color:white;}
     padding: 5px 15px 5px 15px;
     font-size: 20px;
     font-weight: bold;
+}
+.rt-panel-icon
+{
+    float:right;
 }
 .rt-panel > hr
 {
@@ -324,9 +332,6 @@ body{background-color:#122b40; color:white;}
 {
      background-color: rgb(255, 99, 71);
 }
-
-/*PACCHETTI COMMERCIALI - v3*/
-
 
 
 #btn-clienti
