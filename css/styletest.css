@@ -234,19 +234,37 @@ body{background-color:#122b40; color:white;}
 {
     padding: 0px 15px 0px 15px !important;
 }
-.titolo-scheda
-{
-    height: 80px;
+/* DESKTOP */
+@media (min-width:650px)
+{ 
+    .titolo-scheda
+    {
+        height: 80px;
+    }
+    .prezzo-scheda
+    {
+        height: 160px;
+    }
 }
+/* MOBILE */
+@media (max-width:650px)
+{
+    .titolo-scheda
+    {
+        height: auto;
+    }
+    .prezzo-scheda
+    {
+        height: auto;
+    }  
+}
+
 .titolo-scheda > p
 {
     font-size:20px;
     font-weight: 100;
 }
-.prezzo-scheda
-{
-    height: 160px;
-}
+
 .prezzo-scheda > h1
 {
     font-size: 50px;
