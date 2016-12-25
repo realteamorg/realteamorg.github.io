@@ -245,6 +245,12 @@ body{background-color:#122b40; color:white;}
     {
         height: 160px;
     }
+    
+    .rt-panel-border
+    {
+        border: 4px solid rgb(18, 43, 64);
+        height: 710px;
+    }
 }
 /* MOBILE */
 @media (max-width:650px)
@@ -256,7 +262,13 @@ body{background-color:#122b40; color:white;}
     .prezzo-scheda
     {
         height: auto;
-    }  
+    }
+    
+    .rt-panel-border
+    {
+        border: 4px solid rgb(18, 43, 64);
+        height: auto;
+    }
 }
 
 .titolo-scheda > p
@@ -277,10 +289,6 @@ body{background-color:#122b40; color:white;}
     font-family: Calibri,sans-serif !important;
     font-weight: bold;
     color:white;
-}
-.rt-panel-border
-{
-    border: 4px solid rgb(18, 43, 64);
 }
 .rt-panel-head
 {
