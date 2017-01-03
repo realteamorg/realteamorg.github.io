@@ -225,8 +225,14 @@
                                     <div class="contenuto-scheda">
                                         <div  class="rt-panel rt-panel-orange">
                                             <div class="rt-panel-head">
-                                                CONFIGURAZIONE 
-                                            </div>
+                                                <table>
+                                                    <tr>
+                                                        <td width="90%">CONFIGURAZIONE</td>
+                                                        <td width="10%">
+                                                            <span data-toggle="modal" data-target="#modal-configurazione" class="glyphicon glyphicon-info-sign rt-panel-icon"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table> </div>
                                             <hr>
                                             <div class="rt-panel-body">
                                                 <p>Utenti, stati operativi, azioni</p>
@@ -234,8 +240,14 @@
                                         </div>
                                         <div  class="rt-panel rt-panel-blue">
                                             <div class="rt-panel-head">
-                                                MOBILE 
-                                            </div>
+                                                <table>
+                                                    <tr>
+                                                        <td width="90%">MOBILE</td>
+                                                        <td width="10%">
+                                                            <span data-toggle="modal" data-target="#modal-mobile" class="glyphicon glyphicon-info-sign rt-panel-icon"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table> </div>
                                             <hr>
                                             <div class="rt-panel-body">
                                                 <p>Azioni operative</p>
@@ -278,7 +290,16 @@
                                         </div>
                                         
                                         <div  class="rt-panel rt-panel-green">
-                                            <div class="rt-panel-head">DASHBOARD IN TEMPO REALE</div>
+                                            <div class="rt-panel-head">
+                                                <table>
+                                                    <tr>
+                                                        <td width="90%">DASHBOARD IN TEMPO REALE</td>
+                                                        <td width="10%">
+                                                            <span data-toggle="modal" data-target="#modal-dashboard" class="glyphicon glyphicon-info-sign rt-panel-icon"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table> 
+                                            </div>
                                             <hr>
                                             <div class="rt-panel-body">
                                                 <p>Monitoraggio operazioni<br>
@@ -320,7 +341,14 @@
                                             </div>
                                         </div>
                                         <div  class="rt-panel rt-panel-green">
-                                            <div class="rt-panel-head">DASHBOARD ANALITICA</div>
+                                            <div class="rt-panel-head">
+                                                <table>
+                                                    <tr>
+                                                        <td width="90%">DASHBOARD ANALITICA  </td>
+                                                        <td width="10%"><span data-toggle="modal" data-target="#modal-analitica" class="glyphicon glyphicon-info-sign rt-panel-icon"></span></td>
+                                                    </tr>
+                                                </table>  
+                                            </div>
                                             <hr>
                                             <div class="rt-panel-body">
                                                 <p>Analisi della pianificazione<br>
@@ -347,47 +375,73 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 style="font-weight: bold;" class="modal-title" id="myModalLabel-1">Configurazione</h4>
+                    <h3 style="font-weight: bold;" class="modal-title" id="myModalLabel-1">Configurazione</h3>
                   </div>
                   <div class="modal-body">
-                      <p style="font-size:20px">Configurazione personale al cliente degli stati 
-                          insieme alle azioni e inserimento di tutti gli utenti nel sistema bla bla bla bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla
-                      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
+                      <p style="font-size:20px"><img src="img/attivazione_1.png" alt="" width="200" height="200" align="right"/>Consulenza personale per la configurazione degli stati 
+                          assime alle azioni necessarie per il vostro lavoro ed inserimento nel sistema di tutti gli utenti partecipanti.<br>
+                          La configurazione permetterà di adattare il più possibile il sistema alla vostra struttura lavorativa e organizzativa
+                      </p>
                   </div>
                 </div>
               </div>
             </div>
             
+            <!-- MOBILE -->
             <div class="modal fade" id="modal-mobile" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 style="font-weight: bold;" class="modal-title" id="myModalLabel-2">Mobile</h4>
+                    <h3 style="font-weight: bold;" class="modal-title" id="myModalLabel-2">Mobile</h3>
                   </div>
                   <div class="modal-body">
-                      <p style="font-size:20px"><img src="screen/mobile400.png" alt="" width="150" height="180" align="right"/>
-                          Visualizza e segui la situazione della squadra in tempo reale, analizza giorno per giorno il calendario
-                          di tutta la squadra e amministra gli stati dei singoli utenti bla bla bla bla bla bla bla bla bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla
-                      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+                      <p style="font-size:20px"><img src="screen/mobile.png" alt="" width="200" height="230" align="right"/>
+                        RealTeam Mobile, è una semplice applicazione per il tuo smartphone che ti permetterà di interagire con la tua squadra in tempo reale, 
+                        segnalando in qualsiasi momento il tuo stato di operatività e vedere la situazione istantanea complessiva dell’intera squadra. <br>
+                        Inoltre grazie al calendario integrato, ti sarà possibile pianificare le tue assenze o disponibilità gestendo anche le eventuali sostituzioni
+                        con un tuo collega. 
+
+                      </p>
                   </div>
                 </div>
               </div>
             </div>
             
-            <!-- DASHBOARD -->
+            <!-- DASHBOARD IN TEMPO REALE -->
             <div class="modal fade" id="modal-dashboard" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-3">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h3 class="modal-title" id="myModalLabel-3">Dashboard</h3>
+                    <h3 style="font-weight: bold;" class="modal-title" id="myModalLabel-3">Dashboard in tempo reale</h3>
                   </div>
                   <div class="modal-body">
-                      <p style="font-size:20px"><img src="screen/dashboard.dark.400.png" alt="img_attivazione_4" width="200" height="100" style="border: 1px solid black" align="right"/>
-                          Visualizza e segui la situazione della squadra in tempo reale, analizza giorno per giorno il calendario
-                          di tutta la squadra e amministra gli stati dei singoli utenti bla bla bla bla bla bla bla bla bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla
-                      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+                      <p style="font-size:20px"><img src="screen/dashboard.dark.400.png" alt="img_attivazione_4" width="350" height="200" style="border: 1px solid black; margin:0 0 10px 10px " align="right"/>
+                          La Dashboard visualizza la situazione dell’intera squadra in tempo reale, mostrando lo stato attuale di ogni singolo utente.<br> E’ uno strumento che è particolarmente utile nei momenti critici in cui 
+                        bisogna valutare la disponibilità e situazione delle risorse.<br>La versione amministrativa della Dashboard permette inoltre di modificare lo stato di ogni risorsa quindi è ideale per assistere il personale 
+                        durante i momenti di azione coordinata.  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- DASHBOARD ANALITICA -->
+            <div class="modal fade" id="modal-analitica" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-4">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h3 style="font-weight: bold;" class="modal-title" id="myModalLabel-4">Dashboard Analitica</h3>
+                  </div>
+                  <div class="modal-body">
+                      <p style="font-size:20px"><img src="screen/analitica.settimana.png" alt="img_attivazione_4" width="350" height="200" style="border: 1px solid black; margin:0 0 10px 10px " align="right"/>
+                        La Dashboard Analitica ti permetterà di scorrere il calendario per visualizzare e analizzare la programmazione dei turni e della 
+                        disponibilità delle risorse nelle ore e giorni a venire, in modalità istante, giorno, 
+                        settimana, mese.<br> Questa funzione è molto utile per prevedere e programmare la 
+                        disponibilità in concomitanza di eventi particolari come maltempo, calamità naturali, eventi di vario genere, 
+                        etc. e per avere una visione d’insieme della disponibilità delle risorse su un periodo medio-lungo.
+                      </p>
                   </div>
                 </div>
               </div>
