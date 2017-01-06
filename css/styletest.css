@@ -253,6 +253,48 @@ body{background-color:#122b40; color:white;}
         border: 4px solid #777;
         height: 710px;
     }
+    
+    .rt-panel-head
+    {
+        padding: 5px 15px 5px 15px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .rt-panel-head > table
+    {
+        margin-left: 10%;
+    }
+    
+    /*IMMAGINI POP-UP*/
+    #img-panel-configurazione
+    {
+        width:200px; 
+        height: 200px; 
+        float:right;
+        margin:0 0 10px 10px;
+    }
+    #img-panel-mobile
+    {
+        width:200px; 
+        height:230px; 
+        float:right;
+        margin:0 0 10px 10px;
+    }
+    #img-panel-dashboard
+    {
+        width:350px; 
+        height:200px; 
+        float:right;
+        margin:0 0 10px 10px;
+    }
+    #img-panel-analitica
+    {
+        width:350px; 
+        height:200px; 
+        float:right;
+        margin:0 0 10px 10px;
+        border: 1px solid black;
+    }
 }
 /* MOBILE */
 @media (max-width:650px)
@@ -270,6 +312,44 @@ body{background-color:#122b40; color:white;}
     {
         border: 4px solid rgb(18, 43, 64);
         height: auto;
+    }
+    
+    .rt-panel-head
+    {
+        padding: 5px 15px 5px 15px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    /*IMMAGINI POP-UP*/
+    #img-panel-configurazione
+    {
+        width:150px; 
+        height:150px; 
+        float:right;
+        margin:0 0 10px 10px;
+    }
+    #img-panel-mobile
+    {
+        width:150px; 
+        height:180px; 
+        float:right;
+        margin:10px 0 10px 10px;
+    }
+    #img-panel-dashboard
+    {
+        width:300px;
+        height:150px;
+        float:top;
+        margin:0 0 10px 0;
+    }
+    #img-panel-analitica
+    {
+        width:300px; 
+        height:150px; 
+        float:right;
+        margin:0 0 10px 0;
+        border: 1px solid black;
     }
 }
 
@@ -292,15 +372,11 @@ body{background-color:#122b40; color:white;}
     font-weight: bold;
     color:white;
 }
-.rt-panel-head
-{
-    padding: 5px 15px 5px 15px;
-    font-size: 20px;
-    font-weight: bold;
-}
 .rt-panel-icon
 {
-    float:right;
+    float:right !important;
+    margin-left:10px;
+    cursor: pointer;
 }
 .rt-panel > hr
 {
@@ -341,6 +417,11 @@ body{background-color:#122b40; color:white;}
 .rt-panel-red
 {
      background-color: rgb(255, 99, 71);
+}
+/*POP-UP PACCHETTI*/
+.modal-body > p
+{
+    font-size: 20px;
 }
 
 
