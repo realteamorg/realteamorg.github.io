@@ -18,7 +18,7 @@
         <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
         <link href="css/creative.css" rel="stylesheet">
         
-        <link href="css/style.css" rel="stylesheet">
+        <link href="css/styletest.css" rel="stylesheet">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -221,14 +221,20 @@
                                         <h1>BASE</h1>
                                     </div>
                                     <div class="prezzo-scheda">
-                                        <h1>10€/mese</h1>
+                                        <h1>20€ / mese</h1>
                                         <p>Ideale per risorse distribuite senza sede operativa centrale.</p>
                                     </div>
                                     <div class="contenuto-scheda">
                                         <div  class="rt-panel rt-panel-orange">
                                             <div class="rt-panel-head">
-                                                CONFIGURAZIONE 
-                                            </div>
+                                                <table>
+                                                    <tr>
+                                                        <td width="90%">CONFIGURAZIONE</td>
+                                                        <td width="10%">
+                                                            <span data-toggle="modal" data-target="#modal-configurazione" class="glyphicon glyphicon-info-sign rt-panel-icon"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table> </div>
                                             <hr>
                                             <div class="rt-panel-body">
                                                 <p>Utenti, stati operativi, azioni</p>
@@ -236,8 +242,14 @@
                                         </div>
                                         <div  class="rt-panel rt-panel-blue">
                                             <div class="rt-panel-head">
-                                                MOBILE 
-                                            </div>
+                                                <table>
+                                                    <tr>
+                                                        <td width="90%">MOBILE</td>
+                                                        <td width="10%">
+                                                            <span data-toggle="modal" data-target="#modal-mobile" class="glyphicon glyphicon-info-sign rt-panel-icon"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table> </div>
                                             <hr>
                                             <div class="rt-panel-body">
                                                 <p>Azioni operative</p>
@@ -257,7 +269,7 @@
                                         <p>include BASE</p>
                                     </div>
                                     <div class="prezzo-scheda">
-                                        <h1>20€/mese</h1>
+                                        <h1>40€ / mese</h1>
                                         <p>Ideale per squadre con coordinamento centrale delle operazioni e gestione manuale dei turni.</p> 
                                     </div>
                                     <div class="contenuto-scheda">
@@ -280,11 +292,20 @@
                                         </div>
                                         
                                         <div  class="rt-panel rt-panel-green">
-                                            <div class="rt-panel-head">DASHBOARD IN TEMPO REALE</div>
+                                            <div class="rt-panel-head">
+                                                <table>
+                                                    <tr>
+                                                        <td width="90%">DASHBOARD</td>
+                                                        <td width="10%">
+                                                            <span data-toggle="modal" data-target="#modal-dashboard" class="glyphicon glyphicon-info-sign rt-panel-icon"></span>
+                                                        </td>
+                                                    </tr>
+                                                </table> 
+                                            </div>
                                             <hr>
                                             <div class="rt-panel-body">
-                                                <p>Monitoraggio operazioni<br>
-                                                    in tempo reale da sede centrale</p>
+                                                <p>Monitoraggio in tempo reale <br>
+                                                   Analisi della pianificazione base</p>
                                             </div>
                                         </div>
                                         
@@ -300,7 +321,7 @@
                                         <p>include INTERMEDIO</p>
                                     </div>
                                     <div class="prezzo-scheda">
-                                        <h1>40€/mese</h1>
+                                        <h1>50€ / mese</h1>
                                         <p>Ideale per processi collaborativi complessi con turni predefiniti, 
                                             che richiedono di analizzare 
                                             e prevedere l'operativita' passata e futura.</p> 
@@ -322,11 +343,21 @@
                                             </div>
                                         </div>
                                         <div  class="rt-panel rt-panel-green">
-                                            <div class="rt-panel-head">DASHBOARD ANALITICA</div>
+                                            <div class="rt-panel-head">DASHBOARD
+                                                <!--
+                                                <table>
+                                                    <tr>
+                                                        <td width="90%">DASHBOARD</td>
+                                                        <td width="10%"><span data-toggle="modal" data-target="#modal-analitica" 
+                                                              class="glyphicon glyphicon-info-sign rt-panel-icon"></span></td>
+                                                    </tr>
+                                                </table> 
+                                                -->
+                                            </div>
                                             <hr>
                                             <div class="rt-panel-body">
-                                                <p>Analisi della pianificazione<br>
-                                                   per istante, giorno , settimana, mese</p>
+                                                <p>Allertamento intelligente<br>
+                                                   Analisi della pianificazione avanzata</p>
                                             </div>
                                         </div>
                                     </div>
@@ -341,6 +372,7 @@
                     </div>
                 </div>
             </div>
+            
             <!-- POPUP DEI PACCHETTI-->
             
             <!-- CONFIGURAZIONE -->
@@ -349,47 +381,81 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 style="font-weight: bold;" class="modal-title" id="myModalLabel-1">Configurazione</h4>
+                    <h3 style="font-weight: bold;" class="modal-title" id="myModalLabel-1">Configurazione</h3>
                   </div>
                   <div class="modal-body">
-                      <p style="font-size:20px">Configurazione personale al cliente degli stati 
-                          insieme alle azioni e inserimento di tutti gli utenti nel sistema bla bla bla bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla
-                      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
+                      <p><img id="img-panel-configurazione" src="img/attivazione_1.png" alt=""/>
+                          Consulenza personalizzata per la configurazione degli utenti, stati e azioni
+                          necessarie a modellare il processo collaborativo in uso. La soluzione si
+                          adatta perfettamente alla struttura organizzativa e lavorativa della squadra.
+                      </p>
                   </div>
                 </div>
               </div>
             </div>
             
+            <!-- MOBILE -->
             <div class="modal fade" id="modal-mobile" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 style="font-weight: bold;" class="modal-title" id="myModalLabel-2">Mobile</h4>
+                    <h3 style="font-weight: bold;" class="modal-title" id="myModalLabel-2">Mobile</h3>
                   </div>
                   <div class="modal-body">
-                      <p style="font-size:20px"><img src="screen/mobile400.png" alt="" width="150" height="180" align="right"/>
-                          Visualizza e segui la situazione della squadra in tempo reale, analizza giorno per giorno il calendario
-                          di tutta la squadra e amministra gli stati dei singoli utenti bla bla bla bla bla bla bla bla bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla
-                      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+                      <p><img id="img-panel-mobile" src="screen/mobile.png" alt=""/>
+                          Mobile e` una app per smartphone che permette alle risorse di squadra
+                          di interagire in tempo reale dovunque si trovino, segnalando il proprio
+                          stato di operativita` e controllando la situazione istantanea complessiva
+                          della squadra.<br><br>
+                          Inoltre, la funzione calendario permette di pianificare assenze, sostituzioni,
+                          prenotazioni, etc. gestendo l'intero processo collaborativo dallo smartphone.
+                      </p>
                   </div>
                 </div>
               </div>
             </div>
             
-            <!-- DASHBOARD -->
+            <!-- DASHBOARD IN TEMPO REALE -->
             <div class="modal fade" id="modal-dashboard" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-3">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h3 class="modal-title" id="myModalLabel-3">Dashboard</h3>
+                    <h3 style="font-weight: bold;" class="modal-title" id="myModalLabel-3">Dashboard in tempo reale</h3>
                   </div>
                   <div class="modal-body">
-                      <p style="font-size:20px"><img src="screen/dashboard.dark.400.png" alt="img_attivazione_4" width="200" height="100" style="border: 1px solid black" align="right"/>
-                          Visualizza e segui la situazione della squadra in tempo reale, analizza giorno per giorno il calendario
-                          di tutta la squadra e amministra gli stati dei singoli utenti bla bla bla bla bla bla bla bla bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla
-                      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+                      <p><img id="img-panel-dashboard" src="screen/dashboard.dark.400.png" alt="img_attivazione_4"/>
+                          La Dashboard visualizza la situazione dell’intera squadra in tempo reale, 
+                          mostrando lo stato istantaneo di ogni singolo utente. E’ uno strumento 
+                          particolarmente utile nei momenti critici in cui 
+                        bisogna valutare la disponibilità e situazione delle risorse, 
+                        come per esempio durante la risposta a una chiamata di intervento.
+                        <br><br>La versione 
+                        amministrativa della Dashboard permette di modificare lo stato di ogni 
+                        risorsa quindi è ideale per assistere il personale 
+                        durante i momenti concitati di azione coordinata.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- DASHBOARD ANALITICA -->
+            <div class="modal fade" id="modal-analitica" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-4">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h3 style="font-weight: bold;" class="modal-title" id="myModalLabel-4">Dashboard Analitica</h3>
+                  </div>
+                  <div class="modal-body">
+                      <p><img id="img-panel-analitica" src="screen/analitica.settimana.png" alt="img_attivazione_4"/>
+                        La Dashboard Analitica ti permetterà di scorrere il calendario per visualizzare e analizzare la programmazione dei turni e della 
+                        disponibilità delle risorse nelle ore e giorni a venire, in modalità istante, giorno, 
+                        settimana, mese.<br> Questa funzione è molto utile per prevedere e programmare la 
+                        disponibilità in concomitanza di eventi particolari come maltempo, calamità naturali, eventi di vario genere, 
+                        etc. e per avere una visione d’insieme della disponibilità delle risorse su un periodo medio-lungo.
+                      </p>
                   </div>
                 </div>
               </div>
@@ -408,11 +474,19 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 text-center">
+                    <div class="col-lg-6 text-center">
                         <div class="service-box">
                             <a href="http://www.vfvtreviglio.it/" target="blank" title="Vigili del fuoco volontari di Trevglio">
                                 <img class="sr-icons" src="img/logovdftreviglio.png" alt="logovdftreviglio" width="200" height="200"/>
                                 <h3>Vigili del fuoco volontari di Treviglio</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <div class="service-box">
+                            <a href="http://www.vfvgazzaniga.it/" target="blank" title="Vigili del fuoco volontari di Gazzaniga">
+                                <img id="img-gazzaniga" class="sr-icons" src="img/logogazzaniga.png" alt="logogazzaniga" width="350" height="200"/>
+                                <h3>Vigili del fuoco volontari di Gazzaniga</h3>
                             </a>
                         </div>
                     </div>
