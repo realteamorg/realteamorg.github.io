@@ -20,6 +20,12 @@ html { font-size:100%; }
     
     #rt-title{font-size:4rem;}
     #rt-subtitle {font-size:1.5rem !important;}
+    
+    #img-gazzaniga
+    {
+        width:250px;
+        height:150px;
+    }
 } 
  
 /* TABLET */
