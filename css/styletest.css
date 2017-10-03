@@ -1,8 +1,11 @@
 html { font-size:100%; }
+body { background-color:#122b40; color:white; padding-top: 50px; }
 
 /* MOBILE */
 @media (max-width: 480px) 
 { 
+    body { padding-top: 55px; }
+
     .navbar-brand
     {
         font-size: 25px !important;
@@ -20,17 +23,36 @@ html { font-size:100%; }
     
     #rt-title{font-size:4rem;}
     #rt-subtitle {font-size:1.5rem !important;}
-    
+
+    .funzione-titolo
+    {
+        font-size: 24px !important;
+        font-weight: bold;
+        margin: 0px 0px 0px 0px;
+    }
+
     #img-gazzaniga
     {
         width:250px;
         height:150px;
+    }
+    
+    #animation-mobile
+    {
+        width:250px;
+    }
+    
+    #animation-dashboard
+    {
+        width:250px;
     }
 } 
  
 /* TABLET */
 @media (min-width:481px) and (max-width:768px) 
 { 
+    body { padding-top: 55px; }
+
     .navbar-brand
     {
         font-size: 25px !important;
@@ -47,6 +69,11 @@ html { font-size:100%; }
     }
     #rt-title {font-size:5em; } 
     #rt-subtitle {font-size:1.5rem;}
+    
+    #animation-dashboard
+    {
+        width:400px;
+    }
 } 
 /* DESKTOP */
 @media (min-width:769px) and (max-width:960px) 
@@ -59,6 +86,11 @@ html { font-size:100%; }
     
     #rt-title {font-size:8rem;}
     #rt-subtitle {font-size:1.5rem;}
+    
+    #animation-dashboard
+    {
+        width:600px;
+    }
 } 
 /* DESKTOP PIU GRANDI */
 @media (min-width:961px) 
@@ -80,9 +112,17 @@ html { font-size:100%; }
     {
         font-size:1.3rem;
     }
+    .description-section-pad30
+    {
+        font-size:1.3rem;
+        padding: 0px 30px 0px 30px;
+    }
+    .description-section-pad50
+    {
+        font-size:1.3rem;
+        padding: 0px 50px 0px 50px;
+    }
 } 
-
-body{background-color:#122b40; color:white;}
 
 #rt-header
 {
@@ -152,7 +192,22 @@ body{background-color:#122b40; color:white;}
     border-color: rgb(255,153,0);
 }
 
+#funzioni, #funzioni hr 
+{
+    border-color: #0066cc;
+}
+
+#btn-funzioni
+{
+    background-color: rgb(255,153,0);
+}
+
 #btn-attivazione
+{
+    background-color: #0066cc;
+}
+
+#btn-benefici
 {
     background-color: rgb(255,153,0);
 }
@@ -235,6 +290,35 @@ body{background-color:#122b40; color:white;}
     height: 430px;
 }
 
+.funzione-riga
+{
+    margin: 0px 0px 30px 0px;
+    padding: 15px;
+    border: 4px solid #0066cc;
+    border-radius: 8px; 
+}
+.funzione-titolo
+{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0px 0px 0px 0px;
+}
+.funzione-testo
+{
+    margin: 10px 0px 0px 0px;
+}
+.funzione-img
+{
+    max-width:100%;
+    max-height:100%;
+    padding: 15px;
+}
+.funzione-align-right
+{
+    text-align: right !important;
+}
+
+
 /*PACCHETTI COMMERCIALI*/
 .contenuto-scheda
 {
@@ -286,6 +370,13 @@ body{background-color:#122b40; color:white;}
         float:right;
         margin:0 0 10px 10px;
     }
+    #img-panel-mobile-calendario
+    {
+        width:190px; 
+        height:250px; 
+        float:right;
+        margin:0 0 10px 10px;
+    }
     #img-panel-dashboard
     {
         width:350px; 
@@ -300,6 +391,13 @@ body{background-color:#122b40; color:white;}
         float:right;
         margin:0 0 10px 10px;
         border: 1px solid black;
+    }
+    #img-panel-allerta
+    {
+        width:350px; 
+/*        height:200px; */
+        float:right;
+        margin:0 0 10px 10px;
     }
 }
 /* MOBILE */
