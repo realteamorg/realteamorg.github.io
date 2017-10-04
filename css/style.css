@@ -30,7 +30,6 @@ body { background-color:#122b40; color:white; padding-top: 50px; }
         font-weight: bold;
         margin: 0px 0px 0px 0px;
     }
-
     #img-gazzaniga
     {
         width:250px;
@@ -395,7 +394,7 @@ body { background-color:#122b40; color:white; padding-top: 50px; }
     #img-panel-allerta
     {
         width:350px; 
-//        height:200px; 
+/*        height:200px; */
         float:right;
         margin:0 0 10px 10px;
     }
