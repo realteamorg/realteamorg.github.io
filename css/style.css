@@ -148,6 +148,12 @@ body { background-color:#122b40; color:white; padding-top: 50px; }
     border: white solid 15px;
     padding-top: 50px !important;
 }
+
+.rt-section-contatti
+{
+    padding-top: 50px !important;
+}
+
 .title-section
 {
     margin-bottom:30px;
